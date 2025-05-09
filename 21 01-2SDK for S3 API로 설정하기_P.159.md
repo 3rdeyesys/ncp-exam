@@ -30,4 +30,4 @@ if __name__ == "__main__":
     # Get CORS configuration
     response = s3.get_bucket_cors(Bucket=bucket_name)
     print(response['CORSRules'])
-    ```
+ ```
