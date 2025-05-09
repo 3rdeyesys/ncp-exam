@@ -52,5 +52,4 @@
     $sts_use_mfa= $obj_array["useMfa"];
   }
 ?>
-
 ```
