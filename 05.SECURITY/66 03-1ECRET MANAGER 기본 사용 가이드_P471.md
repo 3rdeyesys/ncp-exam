@@ -1,4 +1,4 @@
-```xml
+```php
 <?php
 	$unixtimestamp =  round(microtime(true) * 1000);
 	$ncloud_api_accesskey = {Ncloud API AccessKey};
