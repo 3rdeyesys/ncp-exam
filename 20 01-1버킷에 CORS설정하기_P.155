@@ -1,0 +1,38 @@
+{
+  "CORSRules":
+  [
+    {
+      "AllowedHeaders": [
+        "*"
+      ],
+      "AllowedMethods": [
+        "PUT",
+        "POST",
+        "DELETE"
+      ],
+      "AllowedOrigins": [
+        "http://*.cors-test.com"
+      ],
+      "ExposeHeaders": [
+        "x-amz-server-side-encryption",
+        "x-amz-request-id",
+        "x-amz-id-2"
+      ],
+      "MaxAgeSeconds": 3000
+    }
+  ]
+}
+
+<CORSConfiguration>
+  <CORSRule>
+    <AllowedHeader>*</AllowedHeader>
+    <AllowedMethod>PUT</AllowedMethod>
+    <AllowedMethod>POST</AllowedMethod>
+    <AllowedMethod>DELETE</AllowedMethod>
+    <AllowedOrigin>http://*.cors-test.com</AllowedOrigin>
+    <ExposeHeader>x-amz-server-side-encryption</ExposeHeader>
+    <ExposeHeader>x-amz-request-id</ExposeHeader>
+    <ExposeHeader>x-amz-id-2</ExposeHeader>
+    <MaxAgeSeconds>3000</MaxAgeSeconds>
+  </CORSRule>
+</CORSConfiguration>
