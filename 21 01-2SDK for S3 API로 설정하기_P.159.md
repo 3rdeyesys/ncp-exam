@@ -1,4 +1,4 @@
-```json
+```xml
 import boto3
 
 service_name = 's3'
